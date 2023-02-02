@@ -1,0 +1,17 @@
+class Locators_Cart:
+    CART_URL = "Cart"
+    DELETE_LINK = "Delete"
+    # PLACE_ORDER_BUTTON = "//body[1]/div[6]/div[1]/div[2]/button[1]"
+    PLACE_ORDER_BUTTON = '//button[text() = "Place Order"]'
+    CART_NAME = "name"
+    CART_COUNTRY = "country"
+    CART_CITY = "city"
+    CREDIT = "card"
+    CART_MONTH = "month"
+    CART_YEAR = "year"
+    PURCHASE = "//body[1]/div[3]/div[1]/div[1]/div[3]/button[2]"
+    CART_CLOSE_BUTTON = "//body[1]/div[3]/div[1]/div[1]/div[3]/button[1]"
+    TEXT = "//body[1]/div[6]/div[1]"
+    TEXT_2 = "//body[1]/div[3]/div[1]/div[1]/div[1]"
+    THANKYOU_TEXT = "//body[1]/div[10]/h2[1]"
+    OK_BUTTON = "//body[1]/div[10]/div[7]/div[1]/button[1]"
